@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+
 export default function Task({
   task: { id, title, state },
   onArchiveTask,
@@ -50,7 +51,7 @@ export default function Task({
           aria-label={state === "TASK_PINNED" ? "unpin" : "pin"}
           key={`pinTask-${id}`}
         >
-          <span className={`icon-bell`} />
+          <span className={`icon-star`} />
         </button>
       )}
     </div>

@@ -24,7 +24,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "chromatic": "npx chromatic --project-token=chpt_9fc0440add59a05"
+    "chromatic": "npx chromatic --project-token=chpt_9fc0440add59a05",
+    "test-storybook": "test-storybook"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -38,6 +39,7 @@
     "@storybook/react": "^8.1.5",
     "@storybook/react-vite": "^8.1.5",
     "@storybook/test": "^8.1.5",
+    "@storybook/test-runner": "^0.19.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",

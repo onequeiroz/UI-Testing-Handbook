@@ -320,7 +320,6 @@ textarea {
   text-overflow: ellipsis;
   white-space: nowrap;
   flex: 1;
-  background-color: #26c6da;
 }
 
 .list-item input[type="text"] {
